@@ -1,9 +1,11 @@
 Git Commandes
 Toujours se placer dans le dossier où l'on a réalisé le "clone"
 
+*/ Ajouter les fichiers modifiés */
+
 1- 
 git add * 
-*/ Ajouter les fichiers modifiés */
+
 
 2- 
 git commit -u "PetitMessage"
