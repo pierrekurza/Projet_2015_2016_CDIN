@@ -1,0 +1,9 @@
+Une fois que tu as fini de bosser !
+git clone https://github.com/xeloni/Projet_2015_2016_CDIN.git
+
+1-
+git add *
+2-
+git commit -m "Message"
+3-
+git push
