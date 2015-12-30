@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
 
+.logo:hover {
+	box-shadow: 0 0 5px #ccc;
+}
+
 .brand {
 	float : right;
 	padding-left : 8px;
@@ -33,7 +37,7 @@
 .social {
 	float : right;
 	position: absolute;
-	right : 0px;
+	right : 100px;
 }
 
 .social ul {
@@ -89,9 +93,32 @@
 }
 
 .navbar_bot {
-	background-color: red;
+	background-color: black;
 }
 
-.text-bot {
+.contact a {
+	float : right;
+	position: absolute;
+	right : 0px;
+	padding-top: 20px;
+	color : grey;
+}
+
+.contact a:hover {
+	color : black;
+}
+
+.text-bot-left {
+	text-align: left;
+	color : white;
+}
+
+.text-bot-mid {
+	text-align: center;
+	color : white;
+}
+
+.text-bot-right {
+	text-align: right;
 	color : white;
 }
