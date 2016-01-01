@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
+body {
+	background-repeat:inherit;
+	background-attachment: fixed;
+}
+
 .logo:hover {
 	box-shadow: 0 0 5px #ccc;
 }
@@ -36,14 +41,6 @@
 }
 
 .dropdown {
-	padding-left : 6px;
-	margin-left: -20px;
-	padding-top: 4px;
-	font-size: medium;
-	color : white;
-}
-
-.dropdown:visited {
 	padding-left : 6px;
 	margin-left: -20px;
 	padding-top: 4px;
