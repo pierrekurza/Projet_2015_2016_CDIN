@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
 .logo:hover {
 	box-shadow: 0 0 5px #ccc;
@@ -20,6 +20,7 @@
 
 .navbar {
 	height: 60px;
+	background-color: transparent;
 }
 
 .navbar-top {
@@ -150,4 +151,8 @@
 p {
 	color: white;
 	font-size: medium;
+}
+
+.navbar_bot {
+	height: 50px;
 }
