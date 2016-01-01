@@ -122,3 +122,7 @@
 	text-align: right;
 	color : white;
 }
+
+.container {
+	width: 1000px;
+}
