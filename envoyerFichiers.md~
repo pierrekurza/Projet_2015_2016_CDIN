@@ -7,7 +7,7 @@ git add *
 
 
 2- 
-git commit -m "PetitMessage"
+git commit -u "PetitMessage"
 
 3- 
 git remote add origin https://github.com/xeloni/Projet_2015_2016_CDIN.git
