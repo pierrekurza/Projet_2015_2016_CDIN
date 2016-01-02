@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
-
-body {
-	background-repeat:inherit;
-	background-attachment: fixed;
-}
-
 .logo:hover {
 	box-shadow: 0 0 5px #ccc;
 }
@@ -25,19 +19,6 @@ body {
 
 .navbar {
 	height: 60px;
-	background-color: transparent;
-}
-
-.navbar-top {
-	background-color: transparent;
-}
-
-.navbar-collapse .navbar-nav .dropdown > a {
-	color: white;
-}
-
-.navbar-collapse .navbar-nav .dropdown > a:hover {
-	color: lightgrey;
 }
 
 .dropdown {
@@ -142,14 +123,44 @@ body {
 }
 
 .container {
-	width: 1100px;
+	width: 1200px;
 }
 
 p {
-	color: white;
+	color: black;
 	font-size: medium;
 }
 
 .navbar_bot {
 	height: 50px;
+}
+
+.contact-partie {
+	padding-top: 120px;
+	text-align: center;
+}
+
+.img-responsive {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.nom-etu {
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+.btn-success {
+	margin-top: 10px;
+}
+
+.caret {
+	margin-left: 5px;
+}
+
+.titre-contact {
+	font-weight: bolder;
+	font-size: 250%;
+	text-decoration: underline;
 }

@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
+body {
+	background-repeat:inherit;
+	background-attachment: fixed;
+}
 
 .logo:hover {
 	box-shadow: 0 0 5px #ccc;
@@ -20,29 +25,14 @@
 
 .navbar {
 	height: 60px;
+	background-color: transparent;
 }
 
 .navbar-top {
 	background-color: transparent;
 }
 
-.navbar-collapse .navbar-nav .dropdown > a {
-	color: white;
-}
-
-.navbar-collapse .navbar-nav .dropdown > a:hover {
-	color: lightgrey;
-}
-
 .dropdown {
-	padding-left : 6px;
-	margin-left: -20px;
-	padding-top: 4px;
-	font-size: medium;
-	color : white;
-}
-
-.dropdown:visited {
 	padding-left : 6px;
 	margin-left: -20px;
 	padding-top: 4px;
@@ -144,10 +134,18 @@
 }
 
 .container {
-	width: 1100px;
+	width: 1200px;
 }
 
 p {
 	color: white;
 	font-size: medium;
+}
+
+.navbar_bot {
+	height: 50px;
+}
+
+.caret {
+	margin-left: 5px;
 }
