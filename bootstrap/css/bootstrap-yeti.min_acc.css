@@ -24,7 +24,6 @@ body {
 }
 
 .navbar {
-	height: 60px;
 	background-color: transparent;
 }
 
@@ -103,7 +102,7 @@ body {
 }
 
 .navbar_bot {
-	background-color: black;
+	background-color: transparent;
 }
 
 .contact a {
