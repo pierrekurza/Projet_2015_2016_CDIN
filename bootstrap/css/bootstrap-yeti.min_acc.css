@@ -1,12 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
-body {
+body  > .container{
 	background-repeat:inherit;
 	background-attachment: fixed;
 }
 
+.logo {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
 .logo:hover {
-	box-shadow: 0 0 5px #ccc;
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 .brand {
@@ -17,9 +29,6 @@ body {
 }
 
 .brand:hover {
-	float : right;
-	padding-left : 8px;
-	padding-top : 4px;
 	color : lightgrey;
 }
 
@@ -41,12 +50,13 @@ body {
 
 .container {
 	position: relative;
+	width: 1200px;
 }
 
 .social {
 	float : right;
 	position: absolute;
-	right : 100px;
+	right: 0px;
 }
 
 .social ul {
@@ -101,46 +111,28 @@ body {
     background: #E64522;
 }
 
-.navbar_bot {
+.navbar_bot li {
+	float : right;
+	list-style-type: none;
+	right: 0px;
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: underline;
 	background-color: transparent;
 }
 
-.contact a {
-	float : right;
-	position: absolute;
-	right : 0px;
-	padding-top: 20px;
-	color : white;
+.contact a{
+	color: black;
 }
 
 .contact a:hover {
-	color : lightgrey;
-}
-
-.text-bot-left {
-	text-align: left;
-	color : white;
-}
-
-.text-bot-mid {
-	text-align: center;
-	color : white;
-}
-
-.text-bot-right {
-	text-align: right;
-	color : white;
-}
-
-.container {
-	width: 1200px;
+	color : #615c5c;
 }
 
 p {
 	color: white;
 	font-size: medium;
 }
-
 
 .caret {
 	margin-left: 5px;

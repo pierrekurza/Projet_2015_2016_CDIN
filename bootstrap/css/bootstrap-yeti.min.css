@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 .logo {
-	margin-top: -4px;
+  	-webkit-transition: all 0.5s ease;
+ 	-moz-transition: all 0.5s ease;
+   	-o-transition: all 0.5s ease;
+  	-ms-transition: all 0.5s ease;
+ 	transition: all 0.5s ease;
+}
+ 
+.logo:hover {
+  	-webkit-transform: rotate(-10deg);
+ 	-moz-transform: rotate(-10deg);
+   	-o-transform: rotate(-10deg);
+  	-ms-transform: rotate(-10deg);
+  	transform: rotate(-10deg);
 }
 
 .brand {
@@ -85,15 +97,10 @@
     background: #E64522;
 }
 
-
-
-.contact a {
-	float : right;
-	position: absolute;
-	right : 0px;
+.contact{
+	text-align: center;
 	padding-top: 15px;
 	color : white;
-	margin-left: 5px;
 }
 
 .contact a:hover {
