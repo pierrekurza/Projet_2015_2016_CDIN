@@ -67,7 +67,6 @@ body > .container{
 }
 
 .social ul li {
-	margin: 5px;
 	list-style: none outside none;
 	display: inline-block;
 }
@@ -138,4 +137,11 @@ p {
 
 .caret {
 	margin-left: 5px;
+}
+
+.lien a{
+	padding-left : 4px;
+	margin-top: 4px;
+	font-size: medium;
+	color : white;
 }

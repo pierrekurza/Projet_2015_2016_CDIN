@@ -130,6 +130,13 @@ p {
 	margin: 0 auto;
 }
 
+.lien a{
+	padding-left : 6px;
+	margin-top: 4px;
+	font-size: medium;
+	color : white;
+}
+
 .nom-etu {
 	padding-top: 30px;
 	font-weight: bold;
@@ -152,4 +159,42 @@ p {
 .contact-partie {
 	padding-top: 120px;
 	text-align: center;
+}
+
+.titre_iut {
+	font-size: 200%;
+}
+
+img.photo_iut {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.titre_iut_article {
+	font-weight: bold;
+}
+
+.btn-lg {
+	color: black;
+}
+
+mark{
+	background-color: lightgrey;
+	color: black;
+}
+
+.liste_dpts li {
+	list-style-type: square;
+	color: black;
+}
+
+.liste_dpts a:hover{
+	text-decoration: none;
+}
+
+.img_iut_sat img:hover {
+	-webkit-transform: scale(2,2);
+	-moz-transform: scale(2,2);
 }
