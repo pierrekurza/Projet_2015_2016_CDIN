@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
 .logo {
+	margin-top: -3px;
   	-webkit-transition: all 0.5s ease;
  	-moz-transition: all 0.5s ease;
    	-o-transition: all 0.5s ease;
@@ -18,12 +20,11 @@
 .brand {
 	float : right;
 	padding-left : 8px;
+	padding-top : 3px;
 	color : white;
 }
 
 .brand:hover {
-	float : right;
-	padding-left : 8px;
 	color : lightgrey;
 }
 
@@ -31,22 +32,24 @@
 .dropdown {
 	padding-left : 6px;
 	margin-left: -20px;
+	padding-top: 4px;
 	font-size: medium;
 	color : white;
 }
 
 .container {
 	position: relative;
+	width: 1200px;
 }
 
 .social {
 	float : right;
 	position: absolute;
-	right : 100px;
+	right : 0px;
 }
 
 .social ul {
-	padding-top: 5px;
+	padding: 5px;
 	margin: 0;
 	margin-top: -4px;
 }
@@ -97,47 +100,28 @@
     background: #E64522;
 }
 
-.contact{
+.navbar_bot li {
 	text-align: center;
-	padding-top: 15px;
+	list-style-type: none;
+	font-size: medium;
 	color : white;
+	padding-top: 6px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.contact a{
+	color: white;
 }
 
 .contact a:hover {
-	color : lightgrey;
-}
-
-.text-bot-left {
-	text-align: left;
-	color : white;
-}
-
-.text-bot-mid {
-	text-align: center;
-	color : white;
-}
-
-.text-bot-right {
-	text-align: right;
-	color : white;
-}
-
-.container {
-	width: 1200px;
+	color : #615c5c;
 }
 
 p {
 	color: black;
 	font-size: medium;
-}
-
-.navbar_bot {
-	height: 50px;
-}
-
-.contact-partie {
-	padding-top: 120px;
-	text-align: center;
 }
 
 .img-responsive {
@@ -163,4 +147,9 @@ p {
 	font-weight: bolder;
 	font-size: 250%;
 	text-decoration: underline;
+}
+
+.contact-partie {
+	padding-top: 120px;
+	text-align: center;
 }

@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
-body  > .container{
+body > .container{
 	background-repeat:inherit;
 	background-attachment: fixed;
 }
 
 .logo {
+	margin-top: -3px;
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -62,6 +63,7 @@ body  > .container{
 .social ul {
 	margin: 0;
 	padding: 5px;
+	margin-top: -4px;
 }
 
 .social ul li {
@@ -112,9 +114,9 @@ body  > .container{
 }
 
 .navbar_bot li {
-	float : right;
 	list-style-type: none;
-	right: 0px;
+	padding-top: 6px;
+	text-align: center;
 	font-size: medium;
 	font-weight: bold;
 	text-decoration: underline;
