@@ -182,10 +182,6 @@ img.photo_iut {
 	font-weight: bold;
 }
 
-.btn-lg {
-	color: black;
-}
-
 mark{
 	background-color: lightgrey;
 	color: black;
@@ -198,6 +194,12 @@ mark{
 
 .liste_dpts a:hover{
 	text-decoration: none;
+}
+
+.img_iut_sat img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .img_iut_sat img:hover {
@@ -214,29 +216,25 @@ mark{
 
 h1{
 	color:#F5900E;
-	text-decoration: underline;
+	font-weight: bold;
 }
 
 h2 {
 	color:#1EA297;
-	text-decoration: underline;
+	font-weight: bold;
 }
 
 h3 {
 	color:#A74292;
-	text-decoration: underline;
+	font-weight: bold;
 }
 
 .nom_outils{
-	color :#BEDC29;
+	color :#EE940C;
 }
 
 .nom_outils a {
-	color :#BEDC29;
-}
-
-.nom_outils a:visited {
-	color :#A24397;
+	color :#EE940C;
 }
 
 .texte_mid {
@@ -247,4 +245,18 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+.mail_btn {
+	margin-top: 8px;
+}
+
+.btn-lg {
+	color: black;
+}
+
+img .logo_iut_page {
+	margin-left:auto; 
+	margin-right:auto;
+	display:block;
 }

@@ -145,3 +145,7 @@ p {
 	font-size: medium;
 	color : white;
 }
+
+.bouton_jumbotron {
+	margin-top: 8px;
+}
