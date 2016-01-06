@@ -14,7 +14,7 @@ html {
   	-ms-transition: all 0.5s ease;
  	transition: all 0.5s ease;
 }
- 
+
 .logo:hover {
   	-webkit-transform: rotate(-10deg);
  	-moz-transform: rotate(-10deg);
@@ -94,15 +94,15 @@ html {
     -ms-transition: all ease 0.3s;
 }
 
-.social .fa-facebook:hover { 
+.social .fa-facebook:hover {
     background: #4060A5;
 }
 
-.social .fa-twitter:hover { 
+.social .fa-twitter:hover {
     background: #00ABE3;
 }
 
-.social .fa-google-plus:hover { 
+.social .fa-google-plus:hover {
     background: #E64522;
 }
 
@@ -256,7 +256,7 @@ h3 {
 }
 
 img .logo_iut_page {
-	margin-left:auto; 
+	margin-left:auto;
 	margin-right:auto;
 	display:block;
 }
