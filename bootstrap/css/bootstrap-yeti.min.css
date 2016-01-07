@@ -238,7 +238,7 @@ h3 {
 }
 
 .texte_mid {
-	text-align: center;
+	text-align: justify;
 }
 
 .outil_un_img img {
@@ -259,4 +259,21 @@ img .logo_iut_page {
 	margin-left:auto;
 	margin-right:auto;
 	display:block;
+}
+
+.test
+{
+	width : 50%;
+	min-width : 400px;
+	margin : auto;
+}
+
+.test p .grande
+{
+	margin-left :-19%; 
+}
+
+.test p .moyen
+{
+	margin-left :-5%;
 }
