@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
-body > .container{
-	background-repeat:inherit;
+body{
 	background-attachment: fixed;
+	background-repeat: no-repeat;
+	ba
 }
 
 .logo {
@@ -13,7 +14,7 @@ body > .container{
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
- 
+
 .logo:hover {
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
@@ -100,15 +101,15 @@ body > .container{
     -ms-transition: all ease 0.3s;
 }
 
-.social .fa-facebook:hover { 
+.social .fa-facebook:hover {
     background: #4060A5;
 }
 
-.social .fa-twitter:hover { 
+.social .fa-twitter:hover {
     background: #00ABE3;
 }
 
-.social .fa-google-plus:hover { 
+.social .fa-google-plus:hover {
     background: #E64522;
 }
 
@@ -148,4 +149,15 @@ p {
 
 .bouton_jumbotron {
 	margin-top: 8px;
+}
+
+.img_flag{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img_flag:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }

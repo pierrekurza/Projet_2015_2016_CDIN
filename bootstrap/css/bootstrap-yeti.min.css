@@ -278,3 +278,14 @@ img .logo_iut_page {
 {
 	margin-left :-5%;
 }
+
+.img_flag{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img_flag:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
