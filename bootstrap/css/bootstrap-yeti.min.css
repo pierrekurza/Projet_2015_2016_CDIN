@@ -266,14 +266,15 @@ img .logo_iut_page {
 	width : 50%;
 	min-width : 400px;
 	margin : auto;
+	padding-bottom:50px
 }
 
-.test p .grande
+.test .grande
 {
 	margin-left :-19%;
 }
 
-.test p .moyen
+.test .moyen
 {
 	margin-left :-5%;
 }
