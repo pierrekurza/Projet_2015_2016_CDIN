@@ -258,7 +258,7 @@ h3 {
 img .logo_iut_page {
 	margin-left:auto;
 	margin-right:auto;
-	display:block;
+	
 }
 
 .test
@@ -271,12 +271,12 @@ img .logo_iut_page {
 
 .test .grande
 {
-	margin-left :-19%;
+	margin-left :-12%;
 }
 
 .test .moyen
 {
-	margin-left :-5%;
+	margin-left :-9 %;
 }
 
 .img_flag{
